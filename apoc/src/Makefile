@@ -4,8 +4,8 @@
 
 ### Intel fortran
 FC     = ifort
-FFLAGS = -extend_source 132 -real-size 64 -fast # equivalent to using -O3
-#FFLAGS = -extend_source 132 -real-size 64 -O2
+#FFLAGS = -extend_source 132 -real-size 64 -fast # equivalent to using -O3
+FFLAGS = -extend_source 132 -real-size 64 -O2
 #FFLAGS = -extend_source 132 -real-size 64 -g -check all
 #FFLAGS = -extend_source 132 -real-size 64 -O0
 
