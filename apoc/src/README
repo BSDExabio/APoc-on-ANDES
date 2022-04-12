@@ -1,0 +1,12 @@
+#APoc-ON-ANDES
+
+# w/ Intel fortran compilers
+should compile cleanly with the native intel compiler settings in the Makefile.
+> module load intel	# this may be unnecessary because intel compilers are default on ANDES
+then follow compilation instructions
+
+# w/ PGF fortran compilers
+comment out intel lines and uncomment the PGF fortran line. 
+> module load pgi
+then follow compilation instructions
+

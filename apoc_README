@@ -1,0 +1,5 @@
+This folder contains programs and files to run APoc against a PDB library
+
+apoc -- Source code, binary and examples of APoc
+scripts -- Auxiliary perl scripts for preparing APoc runs and parsing its output
+runs -- Scripts for running APoc on Andes. 

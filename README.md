@@ -1,2 +1,2 @@
-# APoc-on-Summit
+# APoc-on-ANDES
 Just basic build and running instructions for the APoc structural alignment code. 

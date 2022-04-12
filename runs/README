@@ -1,0 +1,10 @@
+apoc_pdb70_andes.pl -- Main PERL script for APoc run on a single node
+		edit lines 25 to 38 to point to respective files/paths... 
+		of course, some of these lines are just placeholders that will be overwritten as command line arguments are parsed.
+
+
+run_apoc_andes.sh   -- Slurm script to Andes, this is typically the only file one needs to modify for runs on different sets of AF2 models. Assumed 'ranked_0.pdb', may need to be changed to 'ranked_top1.pdb' for more recent runs with AF2Complex.
+		edit lines 16 and 21-22
+		assumes submitting batch script in the same directory as the perl script and similar directory structure as in this repo
+
+
