@@ -1,0 +1,25 @@
+# Utility Scripts Overview
+
+## prep_structure_list.py
+
+
+
+## splitset.pl
+Code to separate an input list file (expected file format for APoc) into subsets based on values in one of the columns of the list file. 
+Usage: ```./splitset.pl [-h] [-s True/False] [-c column_index] file_to_be_split number_of_subsets'''
+
+-h gives help on usage. 
+-s decides whether the set is sorted as being divided into subsets.
+-c is an integer value that determines which column in the file is being used to sort the list. 
+file_to_be_split path to file which contains a set of lines that will be split into separate files. 
+number_of_subsets is an integer value that determines the number of subsets to create. Output files will be split using the same name as the file_to_be_split but with appended subset numbering to denote. 
+
+
+## combine_apoc_results_andes.pl
+
+
+
+
+
+
+
