@@ -1,6 +1,7 @@
 # Utility Scripts Overview
 
-## prep_structure_list.py
+## prep_structure_list.ipynb
+Jupyter notebook to create a APoc-formatted list file for the further analyses... unnecessary if you have the list file from AlphaFold or SAdLSA codes...
 
 
 
@@ -16,10 +17,9 @@ number_of_subsets is an integer value that determines the number of subsets to c
 
 
 ## combine_apoc_results_andes.pl
-
-
-
-
-
-
+Code to combine seperate APoc alignments from split runs, creating a unified summary file. 
+Usage: ```./combine_apoc_results_andes.pl [-h] [-a aln_root_dir] [-n nAligns] list_file'''
+-h prints a help message.
+-a path string that functions as the root directory for the alignment results output. hard coded path format...
+-n integer denoting how many alignments are reported in the summary file, ranked by best alignments. 
 
